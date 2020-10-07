@@ -11,6 +11,8 @@ $(document).ready(function() {
         array.push("Beep");
       } else if (outcome.includes(2)) {
         array.push("Boop");
+      } else if (outcome.includes(3)) {
+        array.push("Won't you be my neighbor?");
       } else {
         array.push(outcome);
       }
