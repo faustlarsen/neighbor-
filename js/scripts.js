@@ -4,8 +4,19 @@ $(document).ready(function() {
     
     let array = [];
     for (let i = 0; i <= input; i++) {
-      array.push(i);
+      let outcome = i.toString();
+      
+      
+      if (outcome.includes(1)) {
+        array.push("Beep");
+      } else {
+        array.push(outcome);
+      }
+
     }
+  
+
+    
 
   $("#output").text(array);
   event.preventDefault();
