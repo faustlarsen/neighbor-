@@ -9,6 +9,8 @@ $(document).ready(function() {
       
       if (outcome.includes(1)) {
         array.push("Beep");
+      } else if (outcome.includes(2)) {
+        array.push("Boop");
       } else {
         array.push(outcome);
       }
@@ -17,6 +19,7 @@ $(document).ready(function() {
   
 
     
+
 
   $("#output").text(array);
   event.preventDefault();
