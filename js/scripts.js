@@ -7,12 +7,12 @@ $(document).ready(function() {
       let outcome = i.toString();
       
       
-      if (outcome.includes(1)) {
-        array.push("Beep");
+      if (outcome.includes(3)) {
+        array.push("Won't you be my neighbor?");
       } else if (outcome.includes(2)) {
         array.push("Boop");
-      } else if (outcome.includes(3)) {
-        array.push("Won't you be my neighbor?");
+      } else if (outcome.includes(1)) {
+        array.push("Beep");
       } else {
         array.push(outcome);
       }
