@@ -1,3 +1,48 @@
+h1, h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+
+.form-group {
+  text-align:center;
+}
+
 .form-control {
+  margin-left: 4in;
   width: 3in;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(14, 13, 13);
+  border-style: solid;
+  border-color: rgb(201, 201, 201) rgb(126, 125, 125) rgb(175, 175, 175) rgb(126, 125, 125);
+  border-width: 0.7cm;
+}
+
+#output {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.btn {
+  background-color: white;
+  font-weight: 600;
+  color: black;
+}
+
+.custom-form .form-control {
+  margin-bottom: 5px
+}
+.custom-form .btn .fa {
+  line-height: 0px
+}
+
+#inputName {
+  font-weight: 600;
+}
+
+#inputNumber {
+  font-weight: 600;
 }
