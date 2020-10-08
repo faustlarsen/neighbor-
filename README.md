@@ -1,7 +1,7 @@
 
 # _Mr. Roboger's Neighborhood_
 
-#### _A web app that returns a range of  numbers., 09/23/2020_
+#### _A web app that returns a range of numbers and substitues specific numbers with funny words.  09/23/2020_
 
 #### By _**Constantine Yakubovski**_
 
@@ -33,7 +33,7 @@ A web app that takes a number from a user and returns a range of numbers from 0 
 
 ## Setup/Installation Requirements
 
-*  No istallation needed. Just take a deep breath, enter the number and read it all out loud an fast.
+*  No istallation needed. Just take a deep breath, enter the number and read it all out loud fast.
 * Have fun.
 
 ## Known Bugs
